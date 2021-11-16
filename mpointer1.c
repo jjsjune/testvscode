@@ -9,7 +9,6 @@ int main() {
     int i = 100;
     int *p, **dp, ***tp;
     p = &i;
-    dp = &p;
     tp = &dp;
 
     func1(&i);
